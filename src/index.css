@@ -1,0 +1,93 @@
+header {
+    background-color: teal;
+    color: #fff;
+}
+
+header span {
+    color: #000;
+}
+.products .product {
+    width: 26% !important;
+    border: 2px solid teal;
+    padding: 15px;
+    border-radius: 10px;
+}
+.products .product a {
+    background-color: teal;
+}
+.categorys h2,
+.create h2 ,
+.products h2 {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.categorys h2::after,
+.create h2::after,
+.products h2::after {
+    content: '';
+    background-color: teal;
+    width: 15%;
+    height: 6%;
+    position: absolute;
+    bottom: -25px;
+    right: 42%;
+}
+
+.categorys .category {
+    width: 26% !important;
+    background: teal;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.create button {
+    margin-left: 25%;
+    background-color: teal;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    margin: 10px;
+    max-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 12px;
+}
