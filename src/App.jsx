@@ -5,9 +5,9 @@ import Header from './assets/component/header/Header'
 import { Route, Routes } from 'react-router-dom'
 import Category from './assets/component/category/Category'
 import Create from './assets/component/create/Create'
-import ProductsCategory from './assets/component/products_Category/productsCategory'
 import Products from './assets/component/products/Products'
 import ProductDetails from './assets/component/productDetalis/ProductDetails'
+import ProductsCategory from './assets/component/products_Category/ProductsCategory.jsx'
 
 export default function App() {
   return (
